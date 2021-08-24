@@ -28,7 +28,7 @@ html {
 }
 
 nav {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
@@ -276,5 +276,15 @@ nav h1 {
 @media(max-width:600px) {
     .row {
         flex-direction: column;
+    }
+    .nav-links{
+        text-align: center;
+    }
+    .text-box{
+        font-size: 1.5rem;
+    }
+    .nav-btn{
+        font-size: 0.7rem;
+        padding: 0.6rem;
     }
 }
