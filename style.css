@@ -45,7 +45,7 @@ nav h1 {
 
 nav>img {
     display: flex;
-    padding: 1rem 0 0 0.5rem;
+    padding: 0.5rem;
 }
 
 .nav-links ul li {
