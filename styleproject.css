@@ -42,6 +42,11 @@ nav h1 {
     text-align: right;
 }
 
+nav>img {
+    display: flex;
+    padding: 0.5rem;
+}
+
 .nav-links ul li {
     list-style: none;
     display: inline-block;
@@ -53,7 +58,7 @@ nav h1 {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    padding: 25px;
+    padding: 1.2rem;
 }
 
 .nav-links ul li a:hover {
@@ -97,15 +102,15 @@ nav h1 {
     color: white;
     border: 2px solid #FC8181;
     padding: .5rem;
-    border-radius: 10px;
+    border-radius: 8px;
     background: var(--primary-color);
     position: relative;
     transition: 0.5s;
 }
 
 .hero-btn:hover {
-    border-radius: 18px;
     transition: 0.5s;
+    background-color:  #ff4d4d ;
 }
 
 .project-container h1 {
@@ -128,8 +133,9 @@ nav h1 {
 }
 
 .hero-btn-secondary:hover {
-    border-radius: 18px;
     transition: 0.5s;
+    background-color: #FC8181;
+    color: white;
 }
 
 .project-container-white {
